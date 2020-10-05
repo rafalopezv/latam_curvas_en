@@ -1,0 +1,43 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","library(gt)"
+"2","
+Attaching package: ‘gt’
+
+"
+"2","The following object is masked from ‘package:rvest’:
+
+    html
+
+"
+"0","library(reactable)"
+"2","package ‘reactable’ was built under R version 3.6.2"
+"0","library(repmis)"
+"2","Registered S3 method overwritten by 'R.oo':
+  method        from       
+  throw.default R.methodsS3
+"
+"0","library(dplyr)"
+"0","library(knitr)"
+"0",""
+"0","source(""code/graficos_latam.R"")"
+"1",""
+"2","Parsed with column specification:
+cols(
+  .default = col_double(),
+  `Province/State` = [31mcol_character()[39m,
+  `Country/Region` = [31mcol_character()[39m
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"2","Parsed with column specification:
+cols(
+  .default = col_double(),
+  `Province/State` = [31mcol_character()[39m,
+  `Country/Region` = [31mcol_character()[39m
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"2","
+"
