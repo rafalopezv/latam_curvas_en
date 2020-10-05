@@ -73,7 +73,7 @@ df_mundo %>%
   mutate(
     Measurement = str_replace(Measurement, "Confirmados", "Confirmed"),
     Measurement = str_replace(Measurement, "Fallecidos", "Deaths"),
-  )
+  ) %>% 
   arrange(`Country`, desc(Date)) %>% 
   reactable(groupBy = c("Country", "Measurement"),
             language = reactableLang(
