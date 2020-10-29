@@ -63,7 +63,7 @@ df_mundo %>%
   ungroup() %>% 
   mutate(
     titulo = paste0(pais_region, ", ", casos, " cases", "\n", total_semanas,  
-                    " weeks since Patient Zero", "\n", "Cases last week:", ult_semana)
+                    " weeks since Patient Zero", "\n", "Cases last week: ", ult_semana)
   ) -> temp
 
 
@@ -121,7 +121,7 @@ df_mundo %>%
   ungroup() %>% 
   mutate(
     titulo = paste0(pais_nombre_corto, ", ", casos, " deaths", "\n", total_semanas,  
-                    " weeks since the first death", "\n", "Deaths last week:", ult_semana)
+                    " weeks since the first death", "\n", "Deaths last week: ", ult_semana)
   ) -> temp
 
 # curva fallecidos
