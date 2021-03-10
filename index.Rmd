@@ -24,7 +24,7 @@ Sys.setlocale(locale = "es_ES.UTF-8")
 </h2>
 
 
-```{r, include=T, echo = F,  fig.height = 21, fig.width = 20}
+```{r, include=T, echo = F,  fig.height = 21, fig.width = 20,warning=FALSE}
 curva_confirmados
 ```
 <small><small><small>
