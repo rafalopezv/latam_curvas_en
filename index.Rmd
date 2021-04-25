@@ -37,7 +37,7 @@ Our own graphic, based on data from [Johns Hopkins University](https://github.co
     New<span style = "color: #e61b72"><b> deaths</b></span> per week
 </h2>
 
-```{r, include=T, echo = F,  fig.height = 21, fig.width = 20}
+```{r, include=T, echo = F,  fig.height = 21, fig.width = 20, warning=FALSE}
 curva_fallecidos
 ```
 <small><small><small>
